@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:id="@+id/yearFld"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:autofillHints="1994"
+        tools:targetApi="o"
+        tools:ignore="LabelFor,TextFields" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Fact"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        tools:ignore="HardcodedText" />
+
+
+
+    <TextView
+        android:id="@+id/date"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"
+        android:text="..."
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:layout_marginStart="10dp" />
+
+
+    <TextView
+        android:id="@+id/fact"
+        android:textSize="26sp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:text="..."
+        android:paddingTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+
+
+</LinearLayout>
