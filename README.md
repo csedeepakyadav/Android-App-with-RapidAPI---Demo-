@@ -7,4 +7,4 @@ These is also a demostration of how to convert a unirest request with headers in
 
 This app not covering excetion handling.
 
-Feel free for Any suggestons , comments and query.
+Feel free for Any suggestions , comments and query.
