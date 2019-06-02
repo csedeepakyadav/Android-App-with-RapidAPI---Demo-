@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
             public Map<String, String> getHeaders() throws AuthFailureError {
                 Map<String, String>  params = new HashMap<>();
                 params.put("X-RapidAPI-Host", "numbersapi.p.rapidapi.com");
-                params.put("X-RapidAPI-Key", "090507531dmsha51977b3fa0abc2p1881d2jsnb302db3a7752");
+                params.put("X-RapidAPI-Key", "xxxxxxxxxxxxxxxxxxxxxxxxxxxx");   //changed key
                 return params;
             }
         };
